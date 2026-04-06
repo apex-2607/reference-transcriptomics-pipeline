@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this pipeline, please cite it as below."
+authors:
+  - family-names: "Singh"
+    given-names: "Alok"
+    affiliation: "MS University of Baroda"
+title: "Reference-Based Transcriptomics Analysis Pipeline"
+version: 1.0.0
+date-released: 2026-04-06
+url: "https://github.com/apex-2607/reference-transcriptomics-pipeline"
+keywords:
+  - RNA-seq
+  - transcriptomics
+  - STAR
+  - DESeq2
+  - differential expression
+  - bioinformatics
+license: MIT
