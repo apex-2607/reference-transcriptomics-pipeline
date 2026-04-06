@@ -1,0 +1,41 @@
+# Raw sequencing data (too large for GitHub)
+data/raw/
+data/trimmed/
+*.fastq.gz
+*.fastq
+
+# Genome and annotation files (download fresh from Ensembl/NCBI)
+genome/*.fa
+genome/*.fa.gz
+genome/*.fai
+genome/*.dict
+genome/*.gtf
+genome/*.gff
+genome/star_index/
+
+# Alignment outputs
+results/aligned/*.bam
+results/aligned/*.bai
+results/aligned/*.sam
+
+# Large result files
+results/counts/*.tmp
+
+# Logs
+logs/
+
+# R temp files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python temp files
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Windows and macOS junk
+.DS_Store
+Thumbs.db
+desktop.ini
